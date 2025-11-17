@@ -1,0 +1,24 @@
+# ===== 忽略所有数据集、结构文件、模型文件 =====
+dataset/
+datasets/
+Big_datasets/
+cache/
+cache_dir/
+PLDDT_results/
+Process_dataset/
+
+# ===== Python ignore =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.npy
+*.npz
+*.log
+
+# ===== VSCode =====
+.vscode/
